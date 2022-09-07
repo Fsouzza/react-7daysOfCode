@@ -1,0 +1,15 @@
+.header{
+  background: transparent;
+  color: #202020;
+  display: flex;
+  font-weight: 500;
+  height: 100%;
+  justify-content: space-around;
+  padding: 1rem;
+  &__nav{
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap');
+
+.newsLetter{
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 65%;
+}
+
+.nlEsquerda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: .5rem;
+  &__subtitulo{
+    color: #444444;
+    font-style: normal;
+    font-weight: 400;
+  }
+  &__titulo{
+    font-family: 'Elsie Swash Caps', cursive;
+    font-size: 4rem;
+    font-weight: 900;
+  }
+  &__texto{
+    display: flex;
+    color: #444444;
+    justify-content: left;
+  }
+}
+
+.nlDireita{
+  height: 850px;
+  
+}
+
+.form{
+  background-color: #fff;
+  display: flex;
+  filter: drop-shadow(6px 6px 10px rgba(0,0,0,.2));
+  gap: 0;
+  &__email{
+    align-items: center;
+    color: #717171;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    input{
+      background: transparent;
+      border: none;
+      outline: none;
+      padding-left: 1rem;
+      width: 240px;
+    }
+  }
+  &__botao{
+    background-color:#FFCB47;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 100%;
+    &:hover{
+      background-color: #ffcf54;
+      transition: linear .5s;
+    }
+  }
+}
+
+.erroRegex{
+  color: red;
+  font-weight: 400;
+  text-align: left;
+}
+
+.corretoRegex{
+  color: green;
+  font-weight: 400;
+  text-align: left;
+}
